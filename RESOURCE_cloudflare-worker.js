@@ -19,7 +19,7 @@ export default {
     const userInput = await request.json();
 
     const requestBody = {
-      model: 'gemini-1.5-flash',
+      model: 'gemini-3.5-flash',
       messages: userInput.messages,
       max_completion_tokens: 300,
     };
